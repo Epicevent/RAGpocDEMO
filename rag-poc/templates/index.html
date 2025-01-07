@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RAG POC</title>
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <h1>RAG Proof of Concept</h1>
+
+    <label for="embedding">Select Embedding:</label>
+    <select id="embedding"></select>
+
+    <h3>Upload Document</h3>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload</button>
+    <p id="uploadStatus"></p>
+
+    <h3>Search</h3>
+    <input type="text" id="queryInput" placeholder="Enter your query">
+    <button onclick="searchQuery()">Search</button>
+    <ul id="results"></ul>
+</body>
+</html>

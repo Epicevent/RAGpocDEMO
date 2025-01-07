@@ -1,0 +1,49 @@
+# Python 관련
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.Python
+env/
+venv/
+venv.bak/
+*.env
+.env
+
+# Flask 관련
+instance/
+*.log
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# IDE 관련 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Codespace 환경
+*.code-workspace
+/.devcontainer
+
+# Node.js (프론트엔드 디렉토리 포함 시)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# HTML/JS 빌드 관련 (빌드가 있을 경우)
+dist/
+build/
+out/
+*.cache
+
+# Git 보안 및 충돌 방지
+*.bak
+*.backup
+*.orig
+*.tmp
